@@ -1,0 +1,72 @@
+.black-strip, .green-strip{
+	height: 112px;
+}
+.black-strip{
+	background: #000;
+}
+.green-strip{
+	background: #6fb747;
+}
+#map{
+	height: 1607px;
+}
+
+.offers{
+	padding: 27px
+}
+.offers__item{
+	display: inline-block;
+	width: 253px;
+	height: 230px;
+	background: #6fb747;
+	margin-right: 33px;
+	margin-bottom: 21px;
+}
+
+.pagenav{
+	float: right;
+	margin-top: 38px;
+	margin-right: 47px;
+	font-size: 11px;
+	font-family: Tahoma, sans-serif;
+}
+.pagenav ul{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+.pagenav ul li{
+	display: inline-block;
+}
+.pagenav ul li a, .pagenav ul li span{
+	margin: 1px;
+	color: #000;
+	text-decoration: none;
+	padding: 4px 8px;
+	background: #ccc;
+}
+.pagenav ul li span{
+	background: #6fb747
+}
+.pagenav ul li span.dotes{
+	margin: 2px;
+	padding: 0;
+	background: 0
+}
+.pagenav ul li a.next,
+.pagenav ul li a.prev{
+	font-weight: bold;
+	padding: 4px 5px;
+}
+
+.footer{
+
+}
+.footer-strip{
+	background: #828282;
+	height: 45px;
+}
+.footer__container{
+	height: 247px;
+	background: #ddd;
+}
