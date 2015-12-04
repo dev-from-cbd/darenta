@@ -14,21 +14,75 @@
   </head>
   <body>
     <div class="wrapper">
-
       <div class="header container-fluid">
         <div class="black-strip row">
-          <div class="col-md-12">1</div>
+          <div class="logo col-md-2">
+            <a href="#">
+              <img src="images/logo.png" alt="">
+            </a>
+          </div>
+          <div class="tagline col-md-4">
+            Арендуйте напрямую личные автомобили<br>
+            у частных лиц или сдайте в аренду свою машину!
+          </div>
+          <div class="rent col-md-2">
+            <button class="btn btn-success btn-green">Хочу сдать авто</button>
+          </div>
+          <div class="col-md-2">
+            
+          </div>
+          <div class="col-md-2">
+            
+          </div>
         </div>
         <div class="green-strip row">
-          <div class="col-md-12">2</div>
+          <div class="filter col-md-10">
+            <span>Я хочу </span>
+            <select class="filter__entity" name="">
+              <option value="">Снять машину</option>  
+            </select> 
+            <span> c </span>
+            <input class="filter__date filter__from" type="input" placeholder="20.04.2015">
+            <span> по </span>
+            <input class="filter__date filter__to" type="input" placeholder="20.04.2015">
+            <span> в городе</span>
+            <select class="filter__destination" name="">
+              <option value="">Где нужна машина</option>
+            </select>
+            <button class="btn btn-success btn-green">Найти</button>
+
+            <nav>
+              <ul class="menu">
+                <li><a href="#" class="menu__item">Стоимость</a>
+                  <div class="menu__content">
+                  content                         
+                  </div>
+                </li>
+                <li><a href="#" class="menu__item">Страховка</a>
+                  <div class="menu__content">
+                  content                         
+                  </div>
+                </li>
+                <li><a href="#" class="menu__item">Автомобиль</a>
+                  <div class="menu__content">
+                  content                         
+                  </div>
+                </li>
+                <li><a href="#" class="menu__item">Доп. функции</a>
+                  <div class="menu__content">
+                  content                         
+                  </div>
+                </li>
+              </ul>
+            </nav>
+
+          </div>
         </div>
       </div><!-- end header -->
 
       <div class="main container-fluid">
         <div class="row">
-          <div class="col-md-6">
-            <div id="map" class="row"></div>
-          </div>
+          <div id="map" class="col-md-6"></div>
           <div class="col-md-6">
             <div class="offers">
               <div class="offers__item">1</div>
@@ -45,7 +99,7 @@
               <div class="offers__item">1</div>
               <div class="pagenav">
                 <ul>
-                  <li><span href="#">1</span></li>
+                  <li><span>1</span></li>
                   <li><a href="#">2</a></li>
                   <li><a href="#">3</a></li>
                   <li><span class="dotes">...</span></li>
@@ -66,9 +120,9 @@
         </div>
       </div>
     </div><!-- end wrapper -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
-  </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
 </html>

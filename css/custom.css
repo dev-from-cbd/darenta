@@ -1,3 +1,6 @@
+html{
+	font-family: Tahoma, sans-serif !important;
+}
 .black-strip, .green-strip{
 	height: 112px;
 }
@@ -28,7 +31,6 @@
 	margin-top: 38px;
 	margin-right: 47px;
 	font-size: 11px;
-	font-family: Tahoma, sans-serif;
 }
 .pagenav ul{
 	list-style:none;
@@ -69,4 +71,118 @@
 .footer__container{
 	height: 247px;
 	background: #ddd;
+}
+
+
+/* second portion */
+.logo{
+	position: relative;
+	z-index: 10;
+}
+.logo img{
+	float: right;
+    margin-right: -15px;
+}
+.tagline, .rent{
+    padding-top:60px;
+}
+.tagline{
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.25;
+    letter-spacing: 0.375px;
+    padding-left: 35px;
+}
+.rent{
+	padding-left:20px;
+}
+.rent .btn-green{
+	width: 156px;
+	background-color: #6FB747;
+}
+.btn-green{
+    height: 38px;
+    letter-spacing: 1.75px;
+    font-size: 14px;
+}
+.btn-green:hover{
+	opacity: .7;
+}
+
+.filter{
+    padding-left: 36px;
+    padding-top: 21px;
+    letter-spacing: 0.375px;
+    text-align: center;
+}
+.filter span{
+	color: white;
+	font-size: 14px;
+}
+.filter__entity, .filter__date, .filter__destination{
+	height: 38px;
+    font-style: italic;
+    color: #8f8f8f;
+    border: 0;
+}
+.filter__entity{
+    width: 150px;
+    margin-left: 4px;
+}
+.filter__date{
+	width: 117px;
+	padding-left: 8px;
+}
+.filter__destination{
+	width: 288px;
+}
+.filter .btn-green{
+	margin-left: 6px;
+	background-color: #113e21;
+	width: 136px;
+}
+.white{background: white}
+.yellow{background: yellow}
+.red{background: red}
+.blue{background: blue}
+
+.menu {
+    list-style: none;
+    height: 43px;
+    padding: 0;
+}
+.menu li {
+    float: left;
+    text-align: left;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 14px;
+    background: #113E21;
+}
+.menu li a {
+    font-family: Tahoma;
+    font-size: 13px;
+    color: #fff;
+    outline: 0;
+    text-decoration: none;
+    padding: 4px 45px 6px 8px;
+    display: block;
+}
+.menu__content{
+	left: 0;
+    float: left;
+    position: absolute;
+    z-index: 10;
+    display: none;
+    text-align: left;
+    padding: 10px 5px 10px 5px;
+    background: #113E21;
+    width: 280px
+}
+.menu li.open .menu__content{
+	display: block
+}
+.menu li:hover .menu__content{
+    left:0;
+    top:auto;
 }
